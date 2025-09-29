@@ -4,7 +4,7 @@ import { MainNavigation } from "./MainNavigation";
 import { NavItem } from "./MainNavigation/NavItem";
 import { UsedSpaceWidget } from "./UsedSpaceWidget";
 import { Profile } from "./Profile";
-import { InputControl, InputRoot, InputPrefix } from "./Input";
+import { InputControl, InputPrefix, InputRoot } from "../Input";
 
 export function Sidebar() {
   return (

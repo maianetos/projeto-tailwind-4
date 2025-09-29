@@ -24,7 +24,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="antialiased">
       <body className="bg-zinc-200">
         <div className="grid min-h-screen [grid-template-columns:var(--grid-cols-app)]">
           <Sidebar />
