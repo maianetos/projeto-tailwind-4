@@ -28,7 +28,7 @@ export default function RootLayout({
       <body className="bg-zinc-200">
         <div className="grid min-h-screen [grid-template-columns:var(--grid-cols-app)]">
           <Sidebar />
-          <main className="px-4 pt-8 pb-12">{children}</main>
+          <main className="px-8 pt-8 pb-12">{children}</main>
         </div>
       </body>
     </html>
