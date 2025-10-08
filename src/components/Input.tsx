@@ -24,3 +24,6 @@ export function InputRoot(props: InputRootProps) {
     />
   );
 }
+export const Root = InputRoot;
+export const Prefix = InputPrefix;
+export const Control = InputControl;
